@@ -1,6 +1,5 @@
 openapi: 3.1.0
 info:
-  # Do not change the title, if the title changes, the import paths will be broken
   title: Api
   version: 0.1.0
   description: API specification
@@ -10,6 +9,8 @@ servers:
 tags:
   - name: health
     description: Health operations
+  - name: bot
+    description: Discord bot management
 paths:
   /healthz:
     get:
@@ -24,6 +25,70 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+  /bot/status:
+    get:
+      operationId: getBotStatus
+      tags: [bot]
+      summary: Get bot status
+      description: Returns current bot status and info
+      responses:
+        "200":
+          description: Bot status
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/BotStatus"
+  /bot/start:
+    post:
+      operationId: startBot
+      tags: [bot]
+      summary: Start the bot
+      description: Start the Discord bot with the given token
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/BotStartInput"
+      responses:
+        "200":
+          description: Bot started
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/BotStatus"
+        "400":
+          description: Invalid token or error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+  /bot/stop:
+    post:
+      operationId: stopBot
+      tags: [bot]
+      summary: Stop the bot
+      description: Stop the currently running Discord bot
+      responses:
+        "200":
+          description: Bot stopped
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/BotStatus"
+  /bot/logs:
+    get:
+      operationId: getBotLogs
+      tags: [bot]
+      summary: Get recent bot logs
+      description: Returns the last N lines of bot console output
+      responses:
+        "200":
+          description: Log lines
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/BotLogs"
 components:
   schemas:
     HealthStatus:
@@ -33,4 +98,48 @@ components:
           type: string
       required:
         - status
-
+    BotStatus:
+      type: object
+      properties:
+        running:
+          type: boolean
+        username:
+          type: ["string", "null"]
+        id:
+          type: ["string", "null"]
+        guilds:
+          type: ["integer", "null"]
+        commands:
+          type: ["integer", "null"]
+        version:
+          type: ["string", "null"]
+        uptime:
+          type: ["integer", "null"]
+        pid:
+          type: ["integer", "null"]
+      required:
+        - running
+    BotStartInput:
+      type: object
+      properties:
+        token:
+          type: string
+          minLength: 1
+      required:
+        - token
+    BotLogs:
+      type: object
+      properties:
+        lines:
+          type: array
+          items:
+            type: string
+      required:
+        - lines
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+      required:
+        - error

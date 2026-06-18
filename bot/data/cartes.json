@@ -1,0 +1,1517 @@
+[
+  {
+    "nom": "Maurice Malone",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-251431.b7df3abe0d342e408ee7048708c8ae2456994bfaaf569053be8e6cce9d1cb00b.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Wesley Common",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-74913.b4b67cc86fa47823a2eed6eb07a52c6d0cac2e4a94fc2092a7986c72a8e75659.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Antoine Bernede",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-234795.e44d698c68e562cf5dd87a0af3eb957342e315c8ba3c6f1f12b589ee57aa9997.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Livan Burcu",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-276583.ab86ed81211bd4c5166b3e9523a2e45b8d0f1f4aa7a36a3ec8ed18ca2640d766.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Joris Chotatd",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-252541.bb6ae534db00cc9276862ecb791c6a5e3b75bf5de9d6bb77c588b33a39860439.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Lucas Cepeda",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-71013.51d7f7845f3623cbc6f6262ac5b18b3faf6ccdbe021a15ed5a4af59ab966496c.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Philipp Schulze",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-263272.ec06eb8837b964b0fb9e86f63d9baa9206245e53d8be9e802f2c9e1f4c8f4830.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Theo Corbeanu",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-258758.4829c90f69990b0b989a2a4bbded13a7797ef22176d573340b8e4ef8ae717928.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Nicky Devlin",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-204033.6f96a875a62610ff8f2b7e77a41da452c94ec6a7d5aca7b3107426c9bce7825e.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Gionvanni Fabbian",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50602667.f57f5c97a07c1e4dae31b45863af734a5ef5cfc3941066b477218c5c85efa00c.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Simone Pafundi",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-271575.81820ff4e465a643289d89c1ee21d4cd40fb41412bd276e8d8b6005f65a76957.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Iker Benito",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-264159.5a9028ff8f917bd7b540bb395d7fa4c78121572fbb94528ad204351936e09d59.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Nikita Contini",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-220532.def418a14cbd39065d07412f915dae2de21e9fe9cb5d5df140651c58c845b077.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Joakim Persson",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-253980.40213f5e2f16c0c7ff1c9e1f2f833a17179e66658d2af25edbb8d855faf08d90.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Franz Stolz",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50402172.6917ee6cb44604d199a1293f4b0b82e0782912556c76f325abc43310c7fea0c6.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Kevin Sessa",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-242974.50b77a372eca4ff43a607dd1a2ef96b9de18443845ce4571ded627a27c445029.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Jeremy Eboisse",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-237256.b6dea6798ad248e9b3c9200df7a9d2181209c85c004da9798e2dba2023591839.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Jodi Jones",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-227764.a85a9e55d0fd8b607ea0a9690d498df5911badfc2e2c7c99ab117bf3b94110a0.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Nam Tae Hee",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-193144.2f343fd61ca5f4bc2af72c2b0e184767cce1ffd9688b5d23dc96748bc5850bf7.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Simon Moore",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-194150.acb5c3b7cbc2456fcb1385c1ded23f655cd8c68cf24b2851b032e550c490e972.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Bartlomiej Pawlowski",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-201114.d6a91959a3ea95e89d93ef059eae33c2fad91eabc970f912465bf6a588da5a97.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Florian Bianchini",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-258910.0f4e439c218104b37854c8b75c6bdb5f32244bf4a80fdcd5551cd19622b64e8f.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Mohammed Kanno",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-220075.b6b32989030d0ad97e733ea391e16ddc2f352d8341b59b9c5f78b47a889d883d.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Juan Bauza",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-236633.25f590ab71290d7aaffbc549f5cdc7dc41f5e08444998a5236205fd66005526d.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Amine Sbaï",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-273666.419ca057059cd5df852d25f24c8c72f674fd39679cc0439cea2143143a7fbaf3.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Liam Cullen",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-233941.0633d0f2220e84758b0b9ed8bc48fad85691ed5dea8373437b9ba6128966213b.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Mikey Moore",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-72159.c1ab14a42c3c24eb1e8cfa288db54c0fb87f7f0d4a2ead5e8d08206dc1a25adc.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Marcel Tisserand",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-216247.091a5907a8f36c0dab31eae3e2636bbd7cb09130d06f64bb1bca9ae7d1e236f5.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Italo",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-70419.21415664fd905968fa65123ac7148db1aeef1937ac6a34abf6f2d3985cd645c4.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Cody Drameh",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-254529.ed43a16426f99ece9dd2b9081f9bc47b7620f48c582ee1d2af1cd44db8fc4877.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Ilay Camara",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-278107.91a3a47db8efcec86202c0b70cc13583a5798f72987688dca4adf9c542411a96.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Yang Min Hyeok",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67179970.da0ed63bbcf00e0ff2453bb1d4559fc6292e2c4b00c620774d1e7e49287de3b3.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Ronald Koeman",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67276544.9d67d2c6f2737608d253908ba60e8d1d12684883090eeb9560f02785afac3fc5.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Jeong Woo Yeong",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50570786.707f5b397893955888acfa56c3725fdd4a670884adfd8f950366badaef851d1e.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Diogo Travassos",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67388633.edb4996cab7439c5f6c65ce9dc3c262e95c2c5e4048e28d432d0d8ef46c34ad3.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Emmanuel Petit",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67110484.54b85db51d117f6f6f57f37417b3333f761dd9f284bd6d1508ed2ee1b7db83a6.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Valentin Atangana",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67384001.59a2039cae2372978d2e012a3de20a0f70b8b6faaf8e0e01a3cca2ece7d20936.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Lilian Thuram",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67110479.080357f4b5c9bdd07a594a67ff05408a8fbdd1995ce94052a69fcaadcdddf55a.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Bobby Moore",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50521692.68a7552e87d5d1bf4eae469b95bcb6c866819d4898db3e7aa9e8f0f11e618a4e.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Angus Gunn",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-216325.16d92e810e6520dce48e1ba15a4d291342b4e343033c5e6f18d2353c9fb0e3f0.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Lothar Matthäus",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67347299.b48c3088d879726f3c503f77016f00f989807d5f1a5500d4d8cc61f90392448d.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Eusébio",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50574167.84e8346ede906882dc707d93c333e43b6e349a174a899802ca499a1d01633df6.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Garrincha",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50579201.12165c76223a4b0c1c48617c045f3d6d3bd8794e1624bbccebe175a0d054c0de.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Roberto Carlos",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67347294.d65154bcb77c91798787f17d5b02ec366152989d7714d1cdc63cb3d3b6053f4b.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Arsène Kouassi",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67180964.88567dbf83b57843cb2bac519b5ef83985e4bc1d828d6fd96bb18b62e61f451d.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Jon Martín",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50608873.fff89e69d1aa460b77b0961f479bbd3ddf58b96f3fd210657fc7f4a247c4a197.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Didier drogba",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67140296.02cad8c97912b5518814d94a2c66ba647d2cca30c7690539591f8be88d95935c.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Ronaldinho",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-83914210.d0619a477e022bfb38e4fc354af1fdf31dbe5754a0de5b3a4fb50c45f9ef9f4d.webp",
+    "valeur": 50
+  },
+  {
+    "nom": "Azzedine Ounahi",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-255125.2d1f891f0664a759b56569c43aaedef12d3a890201712e3bc78edfe06791a14a.webp",
+    "valeur": 200
+  },
+  {
+    "nom": "El Chadaille Bitshiabu",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-263193.bf21a9bae751c716e822bae8af4183b5e9406dcb496924cbf25778c0051b5c02.webp",
+    "valeur": 200
+  },
+  {
+    "nom": "Panagiotis Retsos",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-234986.bbb71cbc2d16e54c5714e2bb0cacc7e3f4c4b1fa2b9c18652a00a2406fa36537.webp",
+    "valeur": 250
+  },
+  {
+    "nom": "Mussab Al Juwair",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-263824.b15b4ad888c17b04a17c8c9e39c905eab61e91f730b9fe6eca0ab6f2eb6cd34c.webp",
+    "valeur": 200
+  },
+  {
+    "nom": "Borja Mayoral",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-228635.d192dc29a3d29235b1dfd22a8ee24eb17d3343288067bb955d07d6f380a00de3.webp",
+    "valeur": 250
+  },
+  {
+    "nom": "Rolando Mandragora",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-225439.f91653ebe43bff2d6e9762a8383207a1e340e4c259b05f18d7e444af4340cb0c.webp",
+    "valeur": 250
+  },
+  {
+    "nom": "Maximilian Eggestein",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-226168.7808b792aedaba5f962f82484f5d42ce7a53fd78ee7865165d54413a757c800c.webp",
+    "valeur": 200
+  },
+  {
+    "nom": "Oleksandr Pikhalyonok",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-243256.a1067abcbbcb70ae6fcf826b2049a35de300b4cd7be1599a42a4e38d3da1ec6b.webp",
+    "valeur": 200
+  },
+  {
+    "nom": "Yeimar Gómez Andrade",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-224396.8fd234eabeaf59084b41df4e057d66cf2def97b208dc074c29eb94b64465a02d.webp",
+    "valeur": 200
+  },
+  {
+    "nom": "Sebastiano Luperto",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-220534.ba9c8a5fdcb395633590db57bf1eb27fb09383594811c2ac0480f97bc31b3a3f.webp",
+    "valeur": 200
+  },
+  {
+    "nom": "Eric Dier",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-202335.bbdf0e1326448823cb9f074a91feff09b022477cce82fba7bcdef727843af4eb.webp",
+    "valeur": 300
+  },
+  {
+    "nom": "Sead Kolasinac",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-207993.4438afc18f65d834be9373544f19c36d3bc9eaf6a0093a2bcb46ac7971d045fb.webp",
+    "valeur": 300
+  },
+  {
+    "nom": "Marc Casadó",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-272600.25d6e5db38cf952592eec7351c3da091114bc2479d1b0281d11e4c6420e29c27.webp",
+    "valeur": 300
+  },
+  {
+    "nom": "Félix lemaréchal",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-264869.c97566ebd470033b90fa21e127a6399a65dbe608d695c582cf6f5ce98828e84a.webp",
+    "valeur": 200
+  },
+  {
+    "nom": "Aihen Muñoz",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-246748.254c1b816a5a546cc8875a7d3022527d2c2a74ac8de7897831ccec012b47d0ad.webp",
+    "valeur": 200
+  },
+  {
+    "nom": "Eric Martel",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-256942.24387c90cd5acfe4390431fd0e511a75799da344b99e690b691f5397675092c9.webp",
+    "valeur": 200
+  },
+  {
+    "nom": "Callum Wilson",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-196978.cef89f351e0b2687944ced218c7edb5c5ac5e8ed36b98dc113607642ca1ce18c.webp",
+    "valeur": 250
+  },
+  {
+    "nom": "Orel Mangala",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-234078.89d447d6d901e6bbfdf5ce25d9d55e3f857efe3522245c81fe43b9aeaf460b45.webp",
+    "valeur": 250
+  },
+  {
+    "nom": "Luca Rainieri",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-240777.0a0d24178d94107aa8c0954ec9ef0017f3ce1740fd7b859793a1f5a41891e42d.webp",
+    "valeur": 200
+  },
+  {
+    "nom": "Igor",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-241585.17e817e64d3d5b941ec8487237d7aec8366d953751b034f638676a8875bcd4ec.webp",
+    "valeur": 200
+  },
+  {
+    "nom": "Nemanja Matić",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-191202.be9a23edbff86ed3abc222d50eae2a2a08b0adafb9ac95d14083f585d6ac19e9.webp",
+    "valeur": 250
+  },
+  {
+    "nom": "Philipp Lienhart",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-231366.d5304e9421df8734359db8dae1cd8613c643d0fb6b85cb94c92e8f1a0f46666f.webp",
+    "valeur": 300
+  },
+  {
+    "nom": "Yerry Mina",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-220523.92251510e81a3687e68c391c388a275c72d4e7045d646aa8d9bd2b591fac4d33.webp",
+    "valeur": 250
+  },
+  {
+    "nom": "Luuk de Jong",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-189805.ce1b6ccb628fbdc8f9df2db5648bc7ebb9b1761d28e18aa322c53f7de1ef2202.webp",
+    "valeur": 300
+  },
+  {
+    "nom": "Josh Cullen",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-228151.29370c16ca2e82b6be9ae376828d8c554637a71d3b46910d8f075d98f3a27a33.webp",
+    "valeur": 200
+  },
+  {
+    "nom": "Danny Welbeck",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-186146.622ac07f5d64bf5c616fd2c74acd61388efecb32e470bc5dbaca3f597d317383.webp",
+    "valeur": 300
+  },
+  {
+    "nom": "Neca Williams",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-243057.6da001cbabf4d30b6cc84ee02edcd4193c55dea947fa0eec471e261bacf882bc.webp",
+    "valeur": 300
+  },
+  {
+    "nom": "Sander Berge",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-228092.66d1d68513c189ba37b8c9253f10638ccc7f6b75ed43f829f35dbb1cce8937ca.webp",
+    "valeur": 300
+  },
+  {
+    "nom": "Jaka Bijol",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-244238.37d7dc30378b6cf515ad7d38bbc9f5207c53159ae1c5d9e93feeb6af47e635dc.webp",
+    "valeur": 250
+  },
+  {
+    "nom": "Toluwalase Arukodare",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50590559.a7deea172704b7ee30409a677ce0e629759737c00a42c4c3a7f44b5f22249441.webp",
+    "valeur": 300
+  },
+  {
+    "nom": "Adrián Martínez",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-253242.98c967db6949ac387e682693824faa1148adc9081a6b25653f825b62783bfc2a.webp",
+    "valeur": 250
+  },
+  {
+    "nom": "Persnel Kimpembe",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-225850.a187897f8859fcec31cf41cc35490b0059343afabd3930e7808cb2d26a6f217a.webp",
+    "valeur": 300
+  },
+  {
+    "nom": "Wataru Endo",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67341351.a7bf92b026a30a8040eb7ff2c6692673eddfa7a564eb9ca1dd5f6f2433bb0b3e.webp",
+    "valeur": 300
+  },
+  {
+    "nom": "Christian Mawissa",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-272785.bf2f024b1598cd7ceab3d60ab23ae7ef0a28b54f6c675a5f7be54bc5dd14a3a0.webp",
+    "valeur": 200
+  },
+  {
+    "nom": "Tyrell Malacia",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-238041.f5443fe9b5e18e9f45eee114b442ba8fa908bf436f6010e2ecf8c3a4102c2138.webp",
+    "valeur": 200
+  },
+  {
+    "nom": "Guéla Doué",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-275208.09c0291b1972e04af3a85da0f6aa509a83896064a2dfc00d2cc71a46fa42a06a.webp",
+    "valeur": 250
+  },
+  {
+    "nom": "Ayyoub Bouaddi",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-278901.9d1f450c1c7e11aa72fd5be62e9baa86b2fa285e854441cb298725b0f0bca519.webp",
+    "valeur": 200
+  },
+  {
+    "nom": "Daichi Kamada",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50564378.23f84fbbfd013a24f7368376531d7fb6f8373af5c7d6757399ee2841bd88e3e3.webp",
+    "valeur": 300
+  },
+  {
+    "nom": "Nordi Mukiele",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-226166.1f9bd1e0060e683d64319a7120a734f3ecbfb44d0f238e80c7afd5b6914bb676.webp",
+    "valeur": 300
+  },
+  {
+    "nom": "Lee Jae Sung",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50553319.9c430b55e2fab4da8bd564265a47a956f162dd5d8078291f4cc8e68b2a126f94.webp",
+    "valeur": 250
+  },
+  {
+    "nom": "Wesley Fofana",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-248695.7d28fd5d8fe9d79ca9aaec1a2d90d8a1334832e0a8e6fef3f59710d0609f0e73.webp",
+    "valeur": 300
+  },
+  {
+    "nom": "Hwang In Beom",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50559658.ead84f7d14e20f03fc7c804e084f5ba0b115c8348ed1e9b5662d74bc1f40e953.webp",
+    "valeur": 250
+  },
+  {
+    "nom": "Hwang Hee Chan",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50558028.cbb2fb5f0fb90c2886d587266fde60b3ffa01fef81980d3586eb3de671757997.webp",
+    "valeur": 200
+  },
+  {
+    "nom": "Kyle Walker",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-188377.3be27ed024a26cf0d18af2bb17e1be1aa85ab49e91da7a3178801cf90930d50a.webp",
+    "valeur": 300
+  },
+  {
+    "nom": "Jan Paul Van Hecke",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-258908.80563a10545c111818e017450d6ae6b1a6a9b965dcb2a1a191dd08d9d7fba48e.webp",
+    "valeur": 500
+  },
+  {
+    "nom": "Casemiro",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-200145.a7a403780d022a6c213b3c703703976261487171fd142949d042b284ae03ce4d.webp",
+    "valeur": 500
+  },
+  {
+    "nom": "Castello Lukeba",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-262138.892a9e80cf25af5d0bae3eb80d728eee1d8bd95ddda4884e62482731fba504ef.webp",
+    "valeur": 500
+  },
+  {
+    "nom": "Pau Cubarsí",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-278046.4e7ac63f1921d14578307aaf5cca55cb62f3045a6865ffde098ffde5d6cc0e0b.webp",
+    "valeur": 650
+  },
+  {
+    "nom": "Dominic Solanka",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-225539.63f0cd21c2bd2fa18b047e803957847686dc0e21b29d3b4c08c70bab73f5f013.webp",
+    "valeur": 500
+  },
+  {
+    "nom": "Aymeric Laporte",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50543866.d9343c4227be0cb173e55ce82f2139a391abb40238abdbb830c4ebe8adbf4969.webp",
+    "valeur": 650
+  },
+  {
+    "nom": "Nikola Milenković",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-238095.51ed3966aae0cecc36e5866942e2fc046f3bea7cb9eb50758996c75d7fad7cf1.webp",
+    "valeur": 750
+  },
+  {
+    "nom": "Matthias Ginter",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-207862.a35e9a23a755bd34feb7584ef7a988494f0ff233278d1ebdd914f4df48a96836.webp",
+    "valeur": 650
+  },
+  {
+    "nom": "Danilo Pereira",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-200888.51f719447fc51db6cd046ac82e0472662fb72951d356e5980432aa3fb9179e68.webp",
+    "valeur": 600
+  },
+  {
+    "nom": "Nathan Aké",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-208920.b44da01e46731430c7d08e63a2260a404e0b28a82637bc5a63cf8fc2f33a786c.webp",
+    "valeur": 750
+  },
+  {
+    "nom": "John Stones",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-203574.af33795e6e45fa1f7c1ed85c62e26dc985b639059c969ec80a7d1185514a9a93.webp",
+    "valeur": 650
+  },
+  {
+    "nom": "Boubacar Kamara",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-236987.c5384303bb78f4342d5b5c8ffc3ffd396fa7cf595a1e42295c3997e79e2d6af6.webp",
+    "valeur": 750
+  },
+  {
+    "nom": "Benjamin White",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-231936.f95c38b625c34076b05fe31e55a14b59566df85e836384c339a1139f5e3801cf.webp",
+    "valeur": 750
+  },
+  {
+    "nom": "Nacho Fernández",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-200724.7837f774c4543387b05cb4a8c7c8e3dbfa37fc80b934402476f1b65a82f676f3.webp",
+    "valeur": 650
+  },
+  {
+    "nom": "Palhinha",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-229391.41deb08872f3b36a63e2f23071614dd787acd27efee477f047da3250fe223871.webp",
+    "valeur": 750
+  },
+  {
+    "nom": "Matthijs de Ligt",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-235243.a8b7021f6477ff2a7c54658f9a726e00f6f63d3ec4cc3a62b8c21a23f99ea324.webp",
+    "valeur": 650
+  },
+  {
+    "nom": "Ivan Prtajin",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67380259.985470b3a62a53f295cdbc7561b53d4ae78cbea70c0eb47c7083c3e04019f1fa.webp",
+    "valeur": 500
+  },
+  {
+    "nom": "Florentino",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-234569.a71e2d341ff3298ad0dfed7f2437c3a4d68e04c5e78dc04c8270353c8b650366.webp",
+    "valeur": 500
+  },
+  {
+    "nom": "Thomas Müller",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-189596.85315401640887798319aabe1442fd45cb225f61a989b9a762fd74b45033ba36.webp",
+    "valeur": 500
+  },
+  {
+    "nom": "José María Giménez",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-216460.a24732ae8af1755a5fd8f5dddd85f40c1751c6be56e5aec9ba97790b9ba89dd4.webp",
+    "valeur": 750
+  },
+  {
+    "nom": "Lucas Hernández",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-220814.48b4014f08e9a0eb4e239b7093f30516e2366f17bcf3316f991f50a846c0d051.webp",
+    "valeur": 600
+  },
+  {
+    "nom": "Andrey Santos",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-273018.5b0ea63b210131ac5421558c175d68da434364e77490f5bc3fc007f879020996.webp",
+    "valeur": 500
+  },
+  {
+    "nom": "Nayef Aguerd",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50576397.644ecf6268d6efc0e6bf35fabf391d71dd87190990052b770cf663186f44736d.webp",
+    "valeur": 600
+  },
+  {
+    "nom": "Nazareno Colombo",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50583684.1cd722fbd8fd4164cda97fb54ce24df3959ff66f55aff1d9a28a3cd2b8c0458f.webp",
+    "valeur": 500
+  },
+  {
+    "nom": "Corentin Tolisso",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-219683.d67bd424120b65831a11550245923ad6476764265a2c093c6b7b494f5cd692ea.webp",
+    "valeur": 600
+  },
+  {
+    "nom": "Omar Alderete",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50572007.a5c26bd8866d9f81083e619a366ea3187eb179d32c60ee2724c54b7084275dcf.webp",
+    "valeur": 600
+  },
+  {
+    "nom": "Baptiste Santamaria",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50551440.304aafb5fc3fc02176e2711ba50c1a20eb894ef02a60cb21f9993f685ed50a02.webp",
+    "valeur": 600
+  },
+  {
+    "nom": "Mohamed kader Meïté",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50407246.40386ca87ab3d49691284b65bfb5f17aa9ebd232295b59f37e87a66876a38e12.webp",
+    "valeur": 500
+  },
+  {
+    "nom": "Zakaria Eddahchouri",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50594046.7541d4058bdf05e8152b2bdb5df9e78d9d5abf68ae0557d4641a9c2d87972d87.webp",
+    "valeur": 500
+  },
+  {
+    "nom": "Diego Chará",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50534715.fb0177698aa88c138fb77fa309b8dc609808e8d73c6fcb0b7fbcb4c2c9bbf5ef.webp",
+    "valeur": 750
+  },
+  {
+    "nom": "Yuri Berchiche",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50515160.bc072d897d5abb24dece208b8152091936b0fb9a763ca41f8111e1caf931a463.webp",
+    "valeur": 600
+  },
+  {
+    "nom": "Con Bozdogan",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50588538.2102fa816a945259503792d3f316ba8bceb2bc3808bfb537d0499d73fc96006c.webp",
+    "valeur": 750
+  },
+  {
+    "nom": "Paul Onuachu",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50544030.cf77f57e003d51ff2f0070930aa5a018c00c8e462ea64809395097d89d01daf8.webp",
+    "valeur": 750
+  },
+  {
+    "nom": "Emersonn",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67185667.038703e01201632815a28694d1e9c603e497766e64c6c8b11c9fa2f86acc7de8.webp",
+    "valeur": 500
+  },
+  {
+    "nom": "Darlington Nagbe",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50533726.27c364bfcfda321e046153c22405808e258ffc481f4ae27a3995b523575a90ca.webp",
+    "valeur": 750
+  },
+  {
+    "nom": "Wataru Endo",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50564135.68eaa2b2e1945342830d3ba1a9a2a39a0a46e7076502353dd22da34f2abe7fab.webp",
+    "valeur": 1000
+  },
+  {
+    "nom": "Stefan de Vrij",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-198176.ef7dc6b465e7a84b759f79eb80c16154426b6b8f626289abf151b51e1324ee05.webp",
+    "valeur": 1000
+  },
+  {
+    "nom": "Rúben Dias",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-239818.2fc96cdaa16ec966d5d290dbea4ed07ff495b40a7b98b55f06a1a47b49efd731.webp",
+    "valeur": 1750
+  },
+  {
+    "nom": "Rúben Neves",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-224293.831379aeff8676e4a091738f6e2cb3cd5730780743fa52810dc14adc2d9b3a19.webp",
+    "valeur": 1000
+  },
+  {
+    "nom": "Lee Kang In",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50575428.f32d71c8a61e1f2ee9dd60392021cf4fe600027e2eaf2ad0e90a4e6216e225a5.webp",
+    "valeur": 1000
+  },
+  {
+    "nom": "Lilian Thuram",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-1615.fa18dba56dc8b15b20e97ad9f1fab31b06a9a51255d165393a57266965c3ae8d.webp",
+    "valeur": 3000
+  },
+  {
+    "nom": "Gabriel",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-232580.e2e67982f6e5cdd41042b77bb2412944b1fea3134cd0c17eb4bab63e82c6de97.webp",
+    "valeur": 2500
+  },
+  {
+    "nom": "Kyle Walker",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50520025.cff4bc696144a860d66ab9ed4f3e272b6dadd8713fcee7a655e21b2b52a10bc7.webp",
+    "valeur": 3000
+  },
+  {
+    "nom": "Gonçalo Ramos",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50588551.a9d5d731b218de6c15f2d440301941f1f9b62536ac64a693217c05e5477a18ee.webp",
+    "valeur": 2500
+  },
+  {
+    "nom": "Fabián Ruiz",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50557919.a434908ae1a2cd13c01a8ad07a56cab1e917da9cddf70eff770d0c34cf3d767c.webp",
+    "valeur": 2500
+  },
+  {
+    "nom": "Lucas Paquetá",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67342791.288e189ef321af76708faff9290100c4d9d557c545a94b547d0c564c41328083.webp",
+    "valeur": 2000
+  },
+  {
+    "nom": "Peter Crouch",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-51257.cad2fb2aae26fda2dd562ab4c15a4350c0ddddc2eacb0c19b22ce49fbdc03ead.webp",
+    "valeur": 1250
+  },
+  {
+    "nom": "Jamie Carragher",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-5467.3aa5479b7d6a3f5d885a3d6b99d4087b926ed648270a1347fe56743b8593cfeb.webp",
+    "valeur": 2500
+  },
+  {
+    "nom": "Rafael Márquez",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-26709.5ca5bf8c0f4f63270ac5d6cc4c4e0ad4e4a34eb31b360869b0889384681e8da8.webp",
+    "valeur": 2750
+  },
+  {
+    "nom": "Ulisses Garcia",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50554791.f8f1052f17088a8dbd4da9d0df6c5fc0e037a028b14c5f75f28791bdfddf1414.webp",
+    "valeur": 1000
+  },
+  {
+    "nom": "Brendan Chardonnet",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50547058.7084a763795dff6aa74839f34d71313e98dbcad3cc0428e91f76a14e31642af1.webp",
+    "valeur": 1250
+  },
+  {
+    "nom": "Corentin Tolisso",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50551331.57cfb477564275dc2cb1ccdcc75efdeac1339c6baab41ce1c701590a678114ad.webp",
+    "valeur": 1250
+  },
+  {
+    "nom": "Dan Scarr",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50569591.0bbd2caf80b150c1fae85d9af19004add902f1a2819f508b7ba2f06368a198b2.webp",
+    "valeur": 1000
+  },
+  {
+    "nom": "Carles Puyol",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-238384.067a656408eb097ad4e5fc81c5e544e867c86dbaca57380f6a6e95931cc0b08e.webp",
+    "valeur": 3000
+  },
+  {
+    "nom": "Alan Shearer",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-51.d8e0ffbab3dd172fecd9626b358f80886636146cf16e5b386157be70831f39fd.webp",
+    "valeur": 3000
+  },
+  {
+    "nom": "Pape Guye",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50573355.b3f90278ebe265b21ecbafec739961731fce5c726f95e34dc53fec1fa09c7096.webp",
+    "valeur": 1500
+  },
+  {
+    "nom": "Pau Cubarsí",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50609694.ad0a92ec138b21d943850e3791903019c63939d83eaed9ad93eeaadb022a8382.webp",
+    "valeur": 1500
+  },
+  {
+    "nom": "Dunga",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-192190.fbaa8eb9998ce9fa8cfddce3c4ade4cb0092ad887302d24b168e4a8ee2ec146c.webp",
+    "valeur": 2000
+  },
+  {
+    "nom": "Marcos Senesi",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50568154.abff6555217f27a5df3ca9ca175f7974da56f748ce9fb755f0ce3804599e5339.webp",
+    "valeur": 2500
+  },
+  {
+    "nom": "Bruno Guimarães",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50579499.0d57adaa8e83efd9db0d55c26a8e49601a76cf72cacc6f53fddbe923a7cd544e.webp",
+    "valeur": 2000
+  },
+  {
+    "nom": "Jawad El Yamiq",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67350639.d64ea70d4005b1f03ed3ff3259a8866940dfbcb12f35574a7f45131fe36a7653.webp",
+    "valeur": 2000
+  },
+  {
+    "nom": "Declan Rice",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50566026.c7a0e36062e571a1d4971f5d85dc7c71b092d3e43f524f74ad6a559fbadbf3fa.webp",
+    "valeur": 2000
+  },
+  {
+    "nom": "José María Giménez",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50548108.c9eca8a3d723c9aa106a5bc77f0ba7f52357e32fc4ea1b44a31fe1ef72bb3c70.webp",
+    "valeur": 2000
+  },
+  {
+    "nom": "Rúben Neves",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-84110373.67d1105440c3260585e3064cde53c75f3cc9c5fd6e87c7a5fef9f5f7ac2dfb35.webp",
+    "valeur": 2000
+  },
+  {
+    "nom": "Claude Makélélé",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-1668.2991a7c0a3c3f7172bb411b0a9206774e18a9c6d558868c3a44741096dc9a7a5.webp",
+    "valeur": 2000
+  },
+  {
+    "nom": "Loïc Badé",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67363970.eda4823fe889ef2a37330e0047431303975e783c858f02fac01fd646c1c1ae2e.webp",
+    "valeur": 2500
+  },
+  {
+    "nom": "Maghnes Akliouche",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50596510.e37036c3a571bb723aaecc33c9b14710dcf5b43b9af7a895b31d6273bac72639.webp",
+    "valeur": 1000
+  },
+  {
+    "nom": "Manuel Locatelli",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50553725.a5df7f3e07bc58eace259bb4d375f75ad66578958f2ebd3f8dc73b8d4794af31.webp",
+    "valeur": 1500
+  },
+  {
+    "nom": "Julian Quiñones",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50566227.9c735960f45099998df6ee33ae8b0ecc20637a303c20be36e10cab532ce2de52.webp",
+    "valeur": 1500
+  },
+  {
+    "nom": "Dean Huijsen",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50609997.a87a3cc083e337f916788fe9ef1b75482c8bbc45f429403d20fc55d63eb01033.webp",
+    "valeur": 1500
+  },
+  {
+    "nom": "Ibrahim Fullah",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50410048.0555605743b3a2e6101e647c5a258c40dae81242418978dc2302f16acd0b9e5e.webp",
+    "valeur": 1000
+  },
+  {
+    "nom": "Tillman",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50588501.82d4eefb919aadcbaa79b7e4a2d9dcbde0150e1c711065b99ed44e4c01faa24c.webp",
+    "valeur": 1500
+  },
+  {
+    "nom": "Kobbie Mainoo",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50600784.5777bc9074332d6dcf5402864dacec428431dddaffbdc7ae78eb60b8af66c143.webp",
+    "valeur": 1500
+  },
+  {
+    "nom": "Reece James",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50569722.a6401cd8b5c600e47a7cd22c50dc9187953886ce5d7159e24a385ad237fca272.webp",
+    "valeur": 1500
+  },
+  {
+    "nom": "Can Bozdogan",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67365754.d3d8dc806587e491941bca61bcccf91ae1998e1866f3f0ed20ecbf90bab98076.webp",
+    "valeur": 2250
+  },
+  {
+    "nom": "João Neves",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50604482.27c70c11e9f861479f6b5bb74ebded102e63580d77102c136eac6561c55906bc.webp",
+    "valeur": 2000
+  },
+  {
+    "nom": "Ilan Kebbal",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50588766.6ef0d140c9de237963e06823bcf1a09854e54db712971fa5844c8946a1a14aac.webp",
+    "valeur": 1000
+  },
+  {
+    "nom": "Mario Gomez",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-150418.6f8af70bdf095b0cdb69df4f9884ae8e72db7c74df73dc411a6c8d1b4e3c414f.webp",
+    "valeur": 3000
+  },
+  {
+    "nom": "Rayan Gravenberch",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50577752.3b4336a596d96245b4c5b54a28a92195d5bd2359d3d813e03d459fadee2eecfe.webp",
+    "valeur": 1500
+  },
+  {
+    "nom": "Leon Goretzka",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50541306.de39cdf644c0a01a7e389438289fa2bfa00673800f2dcf8a4364cdf8b97e9de9.webp",
+    "valeur": 1500
+  },
+  {
+    "nom": "Lewis Skelly",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50610421.71dfc6ed1873e4fcc010b1c64b6d1be09911a5856e5b1d9f145d280fcd42d12e.webp",
+    "valeur": 1500
+  },
+  {
+    "nom": "Narcis Ilas",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50607022.38644e5edaff88b41ae38dc31ca4710840d52e231235e0588a4c6a851653d7d6.webp",
+    "valeur": 2000
+  },
+  {
+    "nom": "Jorge Campos",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50523342.efcfa1e1eacc772156536c58f8a3bce3f0d1b8eeaa82a955171ad203aac52b11.webp",
+    "valeur": 3000
+  },
+  {
+    "nom": "Jules Koundé",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50573134.baccdcbb2651655713da9aa5c868a9890fa706a46cf88b9ef610824bc5514ebb.webp",
+    "valeur": 3000
+  },
+  {
+    "nom": "Dante",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67267489.06e1288ad7d4096c3d35545bff2be49cf8ff47fafa26aca3a44036038c7f1a76.webp",
+    "valeur": 3000
+  },
+  {
+    "nom": "Charlie Cresswell",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50585769.31d4035d786861638ec3385a5c38cfa275f3a7d08a75dff5057fb4be4afe3674.webp",
+    "valeur": 1500
+  },
+  {
+    "nom": "Morgan Rogers",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50591895.0c84bcfcc73c88082d375353c3f357b7c6aa4341f48ec6538a8a67748749b5ab.webp",
+    "valeur": 2000
+  },
+  {
+    "nom": "Juan Jesus",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50532400.f052e0c5e77e64f939b61264d7fec64a6423e4df4cd32338df5d00eee74ea25b.webp",
+    "valeur": 1500
+  },
+  {
+    "nom": "Javier Mascherano",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50474402.7c4ef27134f83f7cc996bc6166b203454cda594e8c0691be4deb7d475129afad.webp",
+    "valeur": 3000
+  },
+  {
+    "nom": "Bruno Fernandes",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50543846.858464c043b70d3c4081d3d9d1ff7b24f84b866071e7f69d4cb4e91606ae9961.webp",
+    "valeur": 3000
+  },
+  {
+    "nom": "Paul Pogba",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50527512.362df7ee3e4cb4a86368a6cde131c9d08e6d898b48b9a25ae3cc35f9f80ad949.webp",
+    "valeur": 2000
+  },
+  {
+    "nom": "Hamari Traoré",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67328653.3f2730928695ec43eb4476d6fba4e31abf264608681f2ca91fa0c3ce872874a6.webp",
+    "valeur": 2500
+  },
+  {
+    "nom": "Federico Valverde",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50570701.7bf0d380f651ff4062cf5f2f0b450d24ed757401d046b1cf42cd2468f93a892f.webp",
+    "valeur": 3000
+  },
+  {
+    "nom": "Rayan Cherki",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50583218.85d6d68a6fb4830ad668a162b0ac87435ab50bea5b1c9ec8d9eaf954818d87d1.webp",
+    "valeur": 2000
+  },
+  {
+    "nom": "Ronald Koeman",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50499328.971f4adde31dacd6cc9b908db8402d3eedfb8fc12ae1e0446000cace7ed57a96.webp",
+    "valeur": 3000
+  },
+  {
+    "nom": "Alexander Isak",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67342595.c2fcc0d7aaf2ec178397492f5da8c315c010ef434a8b052b59bff731c2580985.webp",
+    "valeur": 3000
+  },
+  {
+    "nom": "Olivier Giroud",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67287373.0235635fba0efea9b65f5fbd4e6fde1bed6c850559206cdfb68343f424c878e9.webp",
+    "valeur": 3000
+  },
+  {
+    "nom": "Omar Alderete",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67349223.88b7d3d59cbe4fa7945f881ef87ab18a08627e7ab84a7bfb97cb11dee011ccfb.webp",
+    "valeur": 6000
+  },
+  {
+    "nom": "Bobby Moore",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-84076124.4bc1587e4b85d3e71c1ef6f1439d9a799e5909203ebdadc56a733cb70562d2da.webp",
+    "valeur": 8000
+  },
+  {
+    "nom": "Lucas Paquetá",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-84120007.c921b7824b0f8a7e62c58eb57ac57736f0d93337954db57df8a8662aea194114.webp",
+    "valeur": 8500
+  },
+  {
+    "nom": "Franco Baresi",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-166906.4d6664e6fafd0840c598915ff4bd7d57412075c450047bab319896b0030e62f1.webp",
+    "valeur": 6000
+  },
+  {
+    "nom": "Willian Pacho",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-84142276.881007c60ad1ffe73685f56f48bd46d9474361fa6e11377eaa6427252d069878.webp",
+    "valeur": 5000
+  },
+  {
+    "nom": "Aymeric Laporte",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67321082.b94d971e3f2931765749c7803aad2245c94cf6aa2ff9111d276987a309ae52e4.webp",
+    "valeur": 5000
+  },
+  {
+    "nom": "Mbekezeli Mbokazi",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50413956.0ab611a050ed1e246843216b4694c5b7b5e47cd3535480902200fbbd198c47c8.webp",
+    "valeur": 9000
+  },
+  {
+    "nom": "Antonio Rüdiger",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50537100.c856f490ebb04fbf3e07b9a8cc21bc0a1cf4a77a2043f69f7e28063d1f1c2013.webp",
+    "valeur": 6500
+  },
+  {
+    "nom": "Harry Kane",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-84088206.076f0de7a783cd67064d563aa87699c8188b9e3bf24516f499a356992ad51805.webp",
+    "valeur": 5000
+  },
+  {
+    "nom": "Alessandro Bastoni",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50569031.5cbcece3d3e41ff7fcc1d275dec3ec211c12e2a4f4c97686612efb16d51fe3b2.webp",
+    "valeur": 6000
+  },
+  {
+    "nom": "José Córdoba",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50404356.b71ad18df615c978b022a5cea1d085c0df505c2c6cbe25e7f985bc5bd8298679.webp",
+    "valeur": 7500
+  },
+  {
+    "nom": "Toni Kroos",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50514169.e25e317e55ce81a77f8433db81df4d05b14871cb6db707f1f9b8ee9f366f7454.webp",
+    "valeur": 5500
+  },
+  {
+    "nom": "Erling Haaland",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67347949.18b70cdf280baaf925f32c23426b517204698cf53a2733b9163b6b990602a291.webp",
+    "valeur": 6500
+  },
+  {
+    "nom": "Ollie Watkins",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67330561.5a7714d83459a20fcde709486ae16c3d843430cd7c8e488a673586cfae5e8611.webp",
+    "valeur": 5000
+  },
+  {
+    "nom": "Odildzhon Khamrobekov",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50413570.38c5acb95ac00f6cc170c1135d70f3164aacce25cdf58d8bf678b3e4f2f0455c.webp",
+    "valeur": 7500
+  },
+  {
+    "nom": "Cecilio Waterman",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50552057.b88a39b3b9fd40e27a4541907adbb35135e34957276ce5a511ef3be1754c0fcc.webp",
+    "valeur": 6500
+  },
+  {
+    "nom": "Ruud Gulit",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-214100.c97d20b4b11f77aab377f0cd5bce907212b6fc0d48c8788b4a2491d7efc73083.webp",
+    "valeur": 5500
+  },
+  {
+    "nom": "Luka Modrić",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-84063083.0af9d7beb88f29b60788d83804c03fed70b3b26edb7b9731c31510341d569d42.webp",
+    "valeur": 5500
+  },
+  {
+    "nom": "Vincent Kompany",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50583131.5318c569a0895624b0a45568b6f02ba7ff473d91ea41daefa4334e112cebbb1d.webp",
+    "valeur": 5500
+  },
+  {
+    "nom": "Philipp Lahm",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50453587.2431a5426457fa4ac12980290680743f62af1519f5d7c43b3fc9304019ed7d26.webp",
+    "valeur": 5500
+  },
+  {
+    "nom": "Zé Roberto",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50360413.c2054a8e1a49d78b23611bc697e4b48829271ee1a2c205003f70fba0a52475b2.webp",
+    "valeur": 5500
+  },
+  {
+    "nom": "Manuel Ugarte",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50584954.44155de29fceb854f4f86aa123e7560fd2c1df4f79c1a7bfeefcb93a58a0872a.webp",
+    "valeur": 9000
+  },
+  {
+    "nom": "Ivan Perisić",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67290322.5f2cba7f2083437782d071e490ae37c745e49cb146606772434fa328a00080de.webp",
+    "valeur": 5500
+  },
+  {
+    "nom": "Scott McTominay",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-100900534.6af2590b1f3b1ad02a50130a5c41270beba1112895a719733864269ca8b8f328.webp",
+    "valeur": 6500
+  },
+  {
+    "nom": "Hwang In Beom",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67336874.3a43b96cfc355eb5dfdfaddc0bb5f030ff3a89034fabff8d69973753e152b2c6.webp",
+    "valeur": 8000
+  },
+  {
+    "nom": "Auston Trusty",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50567403.ae81e5ac6f60f039a760b7338bdc3df60200992db8c4e199c53b8b1da94cddd3.webp",
+    "valeur": 6500
+  },
+  {
+    "nom": "Fabio Cannavaro",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50332831.ce2f85306749f95a07d4000b1e679c6398f53459d0fb38ce6e422cb22b97e42e.webp",
+    "valeur": 5500
+  },
+  {
+    "nom": "Xavi",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-10535.3be0057053f68f2946211fb5b5370475ee50adcad19a006aeb0507d48674433b.webp",
+    "valeur": 7000
+  },
+  {
+    "nom": "Tyler Adams",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50564647.bfa6e63ae7fa6cdd824602be4aab694a0bc090801992ec88157d4b660d631f55.webp",
+    "valeur": 10000
+  },
+  {
+    "nom": "Lamine Yamal",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67386507.b08d9a78606d8668e5346563b33703f259a31051f039a5544c429578836e95fa.webp",
+    "valeur": 5500
+  },
+  {
+    "nom": "George Best",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-226764.9425f57c8748b53140577d0169efe7a0cb9199b144f97ae4ef620052b3f386e3.webp",
+    "valeur": 5500
+  },
+  {
+    "nom": "Franz Beckenbauer",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-168473.bb5a81be3cc7d22b7bfd01a82c2a4b0cfba38270547b2da5d9a3ce989436aa6b.webp",
+    "valeur": 8000
+  },
+  {
+    "nom": "Diego Forlán",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50598339.af7a21594ff3aced5784ecd05c3a2b1fb227aabd8481ca8b5adabbd8e001d4e8.webp",
+    "valeur": 5500
+  },
+  {
+    "nom": "Saud Abdulhamid",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50578336.25e5789fec93d6ea5d7f5269d16705ab979a9caec837c029a5869711d1ad7f51.webp",
+    "valeur": 10000
+  },
+  {
+    "nom": "Tani Oluwaseyi",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67379972.2ae6e404766c843793a292ff77e0ccf1efd7e603e65a1dd3f9e588d680e5c086.webp",
+    "valeur": 10000
+  },
+  {
+    "nom": "Balde",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67372442.73c5537e3a85df611579c08b61a186a269f408bbc0f0532d7af6149d3436508c.webp",
+    "valeur": 5500
+  },
+  {
+    "nom": "Luís Figo",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50337237.f19a369f4e65e6f5c0276d1a75180b03e923d79acf966c6d378268c2cb37cc54.webp",
+    "valeur": 5500
+  },
+  {
+    "nom": "Bradley Barcola",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67373516.6b9af264f5ea89c76c78d17017faabf270bfdebbe689f732ae3fef05d3696cb5.webp",
+    "valeur": 5500
+  },
+  {
+    "nom": "Pedri",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-84137934.7ee8bdccaf4105db9df48d1166ff24c472412fd438ba0ef2b16d6665422a775d.webp",
+    "valeur": 8000
+  },
+  {
+    "nom": "Lee Jae Sung",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67330535.d2b9c82afcffd4fe471584da0257016d7419b8df1984e49ee1b634880fc9dcb9.webp",
+    "valeur": 10000
+  },
+  {
+    "nom": "Thiago Almada",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50577019.9ae6f28caf370c2e00847fdb6d85dccd091dd607e29b4fde1f8edc29346f7c31.webp",
+    "valeur": 10000
+  },
+  {
+    "nom": "Mohamed Touré",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67364631.2a64bae6b695792858e699cde90858a31713c78c34d7aadc010a574d1b559516.webp",
+    "valeur": 10000
+  },
+  {
+    "nom": "Roberto Carlos",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50570078.da3f0791b5b827244449e268e2ade25a186005d4899de259c9f5cd8f7736b7b4.webp",
+    "valeur": 6500
+  },
+  {
+    "nom": "Carles Puyol",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50570032.a7f588fc8e331c942154747d35056b28e81d6c156e4c74a6c477098048f1f8a5.webp",
+    "valeur": 5500
+  },
+  {
+    "nom": "Bernardo Silva",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-84104747.7dc40b1c58dba1d076f2713ddb191f4b90427731944ae242d72ffaa3e92b38c9.webp",
+    "valeur": 5500
+  },
+  {
+    "nom": "Jérémy Doku",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-84132500.2f8235211ef3f256fcb398c14d22a37476b82be797be80db87e54c81b05c1a1a.webp",
+    "valeur": 7000
+  },
+  {
+    "nom": "Paul Pogba",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-100859160.589d3650bbb5b9f615871be8c36da2ee879cd2ebe05e0739f48ed61d351c3399.webp",
+    "valeur": 8000
+  },
+  {
+    "nom": "Blaise Matuidi",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67279754.2df165627c3728d68b6d33a6b8e35f6cd253dde6c1518e979b934d521a0f5d4d.webp",
+    "valeur": 5500
+  },
+  {
+    "nom": "Cristiano Ronaldo",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-134238529.1ef56dbd798868726c4e081f24f024dd52f3e04f5edd7479abef4b63928b3045.webp",
+    "valeur": 8500
+  },
+  {
+    "nom": "Ibrahim Sangaré",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67344037.452d04cacb7a318e8a8dc74a874aaed74be2e58a2d9775bbdf94ef36693325c9.webp",
+    "valeur": 10000
+  },
+  {
+    "nom": "Kouadio Manu Koné",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67359587.51c01a576d36addb9617797f26c90520e982cd4e13c1512bce36d226cf108b10.webp",
+    "valeur": 9000
+  },
+  {
+    "nom": "Lamine Yamal",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-117718155.b235d626a17e5d61acb4113cb71f43a18fa57b2d52cd7a08ccf39e11d6db75c5.webp",
+    "valeur": 8500
+  },
+  {
+    "nom": "Pape Gueye",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67350571.a9ea32c0b7372c30f0023701513fa212e374c510211c7f55956161ccfba468ad.webp",
+    "valeur": 10000
+  },
+  {
+    "nom": "Bukayo Saka",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67355533.9f2f53030de68425465f02783f2cae2e604ead8952723bd845d1cc103ea887fd.webp",
+    "valeur": 6500
+  },
+  {
+    "nom": "Paulo Dybala",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-84097190.4a06cd93ec330fa4855f322294ded3ad3f42ee0609586724216968ae38fad03c.webp",
+    "valeur": 6500
+  },
+  {
+    "nom": "Axel Tuanzebe",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50563133.81b900483a89a46aa9bfb86040c83825108ca9f4044fa268c02ca0a5d1d47474.webp",
+    "valeur": 10000
+  },
+  {
+    "nom": "Marco Van Basten",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50523829.1e1274668571c8fdbbefd0524aa3cc0a9256dfa733d730378c5f3cf838448ed3.webp",
+    "valeur": 8000
+  },
+  {
+    "nom": "Petar Sučić",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50607926.6203a5112a875be3a820e7baabc42fd822d422e14be00df1cc7222be77dbaf9c.webp",
+    "valeur": 9000
+  },
+  {
+    "nom": "Marcus Thuram",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-84114173.4343a3c0efd26589540731e2c2334208d6c2ed171ef16f066c5240882901fd4a.webp",
+    "valeur": 10000
+  },
+  {
+    "nom": "Raphinha",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50565067.9e865b0c72d306c10fb246a28135cfcad7d6cd7b893ed6a3cbea27c8d8d3e8c8.webp",
+    "valeur": 5500
+  },
+  {
+    "nom": "Gianluca Zambrotta",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50582538.37ba5416e27b7db09ede9ad9d13fb4e64df2ffb47e323147c50fbdc575caa729.webp",
+    "valeur": 5500
+  },
+  {
+    "nom": "Zlatan Ibrahimović",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50372884.00b1df2765f10de60244442acb489c90b77a88d68b52c1bd1ca9689a4d9c6f08.webp",
+    "valeur": 8000
+  },
+  {
+    "nom": "Menphis Depay",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50534204.2a4ddc68f0af86856c14b586d47ec741f5191ad0c4d34b6a7535a5477007d38e.webp",
+    "valeur": 10000
+  },
+  {
+    "nom": "Erling Haaland",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-84125165.8dae1f651ed3120ccce55c85af70159f588d45405317a67040709a6dcb528746.webp",
+    "valeur": 8000
+  },
+  {
+    "nom": "Morgan Rogers",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-100923543.d8e7370507aee0f2c7852f001efdb4556c4fceeec06ad4e4a1db4fcb51b71e19.webp",
+    "valeur": 10000
+  },
+  {
+    "nom": "Jules Koundé",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67350350.bb2996442e0dc3268fac7a89b605b77cb67445645fb4a08ff0896d5f96222eaa.webp",
+    "valeur": 10000
+  },
+  {
+    "nom": "Zinedine Zidane",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-1397.c8185c074440521a2efb0cc61d2df129672f8ac2f420632f4087edc8385b3a44.webp",
+    "valeur": 10000
+  },
+  {
+    "nom": "Mohammed Noor",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67277744.a4193455aa1564a68696e7890469b4da6b0dd17a66452b31cf6cb7e239ced17d.webp",
+    "valeur": 5500
+  },
+  {
+    "nom": "Patrick Kluivert",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50570072.84166611fa1f3ccfe9ea0e15eac862d340228e534f5cf276dc087042635176fd.webp",
+    "valeur": 10000
+  },
+  {
+    "nom": "Carles Puyol",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67347248.6b898b1bd7159359f39f3dbe43db14842f2aeef5ae7fe74f00557e0ae87652d1.webp",
+    "valeur": 10000
+  },
+  {
+    "nom": "Kylian Mbappé",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-84117827.63255895da4dd58af8493544dbfe3b3622778563baba142c520e96f302ab815e.webp",
+    "valeur": 9000
+  },
+  {
+    "nom": "Ousmane Dembélé",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67340307.6cf3e0d25ec800c18d405b8a35d78b41b0f096481eb7e0c0066c3900aa9dfa60.webp",
+    "valeur": 7500
+  },
+  {
+    "nom": "Désiré Doué",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-84157501.68ac1f65d44c59259968407a0da00e2fb6c473be410861aa3ddb26f9f481dc02.webp",
+    "valeur": 7000
+  },
+  {
+    "nom": "Antoine Griezmann",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67303629.5972431ce54185328b8fe15a53d62c9f9661071bc970e0f66063d4aeb4669425.webp",
+    "valeur": 7000
+  },
+  {
+    "nom": "Gonçalo Ramos",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67365767.1f797648024ff7ab6dbfd9c178b6e6243f969cd164ef6e5e8eeaa5385545b93b.webp",
+    "valeur": 35000
+  },
+  {
+    "nom": "Fabián Ruiz",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-84112351.df79989b26fae1f2bd44ae8b9b679012e8c623ea9261ac52009cbc50670ebd5a.webp",
+    "valeur": 35000
+  },
+  {
+    "nom": "Kim Min Jae",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-84123166.d1698226a2459da2a65484e42198690a468c22963bc26033da40adeb64f037ef.webp",
+    "valeur": 25000
+  },
+  {
+    "nom": "Santiago Giménez",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67354016.4b2647e183301295259688b0d23c02f149829882d85990b0bb7707e7a090ded6.webp",
+    "valeur": 25000
+  },
+  {
+    "nom": "Sebastian Berhalter",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-100918501.6b5665ca0ffe719ae71d4b6db6b4ab989d46f591cdd06f74e30fc2b90192d4ed.webp",
+    "valeur": 25000
+  },
+  {
+    "nom": "Dani Olmo",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67353124.3623c1c84612ef55e5d305092617395c365feb23990dd75145a761b6a2d3c007.webp",
+    "valeur": 25000
+  },
+  {
+    "nom": "Reece James",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-84124154.3c82d2e940bbf6c0fc2b1bc64132a9e52855043d55e2a7cb5f696a54bcb1e477.webp",
+    "valeur": 25000
+  },
+  {
+    "nom": "Timothy Weah",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67350360.326fd9c5c7b26b6f966920445c8fb79eeb7e979c80b466672a6658efd31adcd8.webp",
+    "valeur": 25000
+  },
+  {
+    "nom": "Maghnes Akliouche",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-100928158.ab1c80bed1d2c4eeff7c112856cac834094684086cad98987130b0338703dfff.webp",
+    "valeur": 25000
+  },
+  {
+    "nom": "Pelé",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-237067.bcae8d40c12075419a216ab1c64696d15c5d6a52f1fb506d4963e5a727af509b.webp",
+    "valeur": 25000
+  },
+  {
+    "nom": "Zinedine Zidane",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50333045.ea96959cc7f5efd9fbb4a915ff9e23b53455346fcb275dde690e479ac18ee89f.webp",
+    "valeur": 25000
+  },
+  {
+    "nom": "Erling Haaland",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-100902381.c989f369ee40b55f1b3a08b112d59f363df503f8cf2f589ffcd18f5a7bd36e91.webp",
+    "valeur": 35000
+  },
+  {
+    "nom": "Pedri",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67360718.63ad4de9ebf22843c305672b5a1daccb1ed58d307aaaba0f73f01156c68e4b89.webp",
+    "valeur": 25000
+  },
+  {
+    "nom": "Maradona",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50521690.32ba47a006d47d7ea77f817e076f358e12bf1d16c9ccf364e2154f46f56d5791.webp",
+    "valeur": 35000
+  },
+  {
+    "nom": "Raphinha",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-84119499.97db61b39d74c49aea5e9684aeec6fdb0573ea52df817c25bd58529305463518.webp",
+    "valeur": 25000
+  },
+  {
+    "nom": "Pelé",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67345931.6b7a536ba62724950be0c46531200cee005ddba7772ba838bdb25b1d340c58a4.webp",
+    "valeur": 35000
+  },
+  {
+    "nom": "Zé Roberto",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-83914845.a707de794e7db2a3aaca34758a1441dd1a8e969f843011c18874dd419d6251b5.webp",
+    "valeur": 25000
+  },
+  {
+    "nom": "Thierry Henry",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-117442137.d22326c6642417ca00669619153e886d02536671e287290b42675d2b8e92978d.webp",
+    "valeur": 35000
+  },
+  {
+    "nom": "Vitinha",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-100918549.269ce3ddb6c46b3d662dc1d8fe5cd2eaefc1245da9b7a6af803209d8aa7d1ef2.webp",
+    "valeur": 25000
+  },
+  {
+    "nom": "Ian Maatsen",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67357329.75cfc099c05db6c145a25310014a47b6f7cfa0f55da0f31ce680b51b9125dc2f.webp",
+    "valeur": 35000
+  },
+  {
+    "nom": "Marco Asensio",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-84106914.e8d725d89a01f09a2069651faccb64b1c3764adfad1712dd86936e9c2db4c93b.webp",
+    "valeur": 35000
+  },
+  {
+    "nom": "Merveille Kanjinga",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67185914.6fb55f800fb0cedffdd23135a2551ef85eeed21d17b6cc08367066771d702466.webp",
+    "valeur": 35000
+  },
+  {
+    "nom": "Virgil Van Dijk",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67312240.1055f312359151b3ab0aecca9f669e7abc90a28f08651d7252c3213f19478866.webp",
+    "valeur": 25000
+  },
+  {
+    "nom": "Kylian Mbappé",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-117672259.273a31c4a7ec210c60ec2d8aa52136ada296f4d54fea787ded26823663534ab9.webp",
+    "valeur": 35000
+  },
+  {
+    "nom": "Joshua Kimmich",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-84098702.f7a89a7644ba9cc2ea8173b50d02e618520ac693f6cbe677109660df609ad22e.webp",
+    "valeur": 35000
+  },
+  {
+    "nom": "Nuno Mendes",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-50583793.c4259d9cd245ff7a80d1b26e35322bce4d7808e004f77351f325a2d96ef44a73.webp",
+    "valeur": 45000
+  },
+  {
+    "nom": "Ousmane Dembélé",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-100894739.f1e4ead3c80be8d5490774b50df626066e0365ef92dfa1972078484cd5dab964.webp",
+    "valeur": 45000
+  },
+  {
+    "nom": "Bruno Fernandes",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-134429926.b1074d4f16b3717dc7245bfb6286194512b97acadb89db2260c64b514fbb4e18.webp",
+    "valeur": 45000
+  },
+  {
+    "nom": "Temwa Chawinga",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-67388663.cc5269e035580c2313b43cace497c5a64f188c86c70d29abff48629e2610b580.webp",
+    "valeur": 45000
+  },
+  {
+    "nom": "Michael Olise",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-151242771.d56dd9978c41e3493bd6eeb8768c670992d030c91d6db58508a78e435c356bdb.webp",
+    "valeur": 35000
+  },
+  {
+    "nom": "Cristiano Ronaldo",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-151015745.52f37e4f2a8062b8a414d123285f2394293dcd2635f2907f44ec430c890bb2c5.webp",
+    "valeur": 25000
+  },
+  {
+    "nom": "Vitinha",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-117695765.d52c67dcdf3cc04a5c29892df4b76142e59bfe842a2034ccea82beb74479abab.webp",
+    "valeur": 45000
+  },
+  {
+    "nom": "Lamine Yamal",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-134495371.c4c1a42d20267881ff606653b5be5f39b7cbeddae9badae724443713e965cef8.webp",
+    "valeur": 45000
+  },
+  {
+    "nom": "Vini Jr.",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-151233738.c7b621f2ea0e81a1aae2385a6a9694755cc5213550c4d9b1843bf47d31d1ab3f.webp",
+    "valeur": 35000
+  },
+  {
+    "nom": "Jude Bellingham",
+    "image": "https://game-assets.fut.gg/2026/player-item-simple-card/26-100915667.44d105870c4b87820578bbd341605c2884814fefc511cbc44386e15e4c74975b.webp",
+    "valeur": 35000
+  },
+  {
+    "nom": "Kylian Mbappé",
+    "image": "https://game-assets.fut.gg/2025/player-item-simple-card/25-201558339.69044cb135b6ec3c3bc0f8565db40ff1bbff8f7e6176fa7678a35c91626d280e.webp",
+    "valeur": 70000
+  },
+  {
+    "nom": "Lamine Yamal",
+    "image": "https://game-assets.fut.gg/2025/player-item-simple-card/25-168049803.d0f0061f1a4856b10c747515281ddab5be9d9c4ac2c52ea5073bb54baa0c2200.webp",
+    "valeur": 70000
+  },
+  {
+    "nom": "Ousmane Dembélé",
+    "image": "https://game-assets.fut.gg/2025/player-item-simple-card/25-201558035.de3cffe0a69bdadc0f6740960ca144d976d338fc82e5e4a1fc338ffd09475fe7.webp",
+    "valeur": 70000
+  },
+  {
+    "nom": "Nuno Mendes",
+    "image": "https://game-assets.fut.gg/2025/player-item-simple-card/25-151247089.d5ecbcc18e5cddcda98684632da3fb97e1d4dddde00f84cf53defb6b9035af72.webp",
+    "valeur": 70000
+  },
+  {
+    "nom": "Désiré Doué",
+    "image": "https://game-assets.fut.gg/2025/player-item-simple-card/25-151266365.5ac47f4b4d51b7f83b2e80f5b1d62831f318fd58f6229238397dc5d4063df862.webp",
+    "valeur": 70000
+  }
+]

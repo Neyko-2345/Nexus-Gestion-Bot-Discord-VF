@@ -1,0 +1,6 @@
+{
+  "name": "form-data",
+  "version": "4.0.0",
+  "description": "A library to create readable multipart/form-data streams (stub)",
+  "main": "index.js"
+}
