@@ -2,10 +2,6 @@ const Discord = require('discord.js');
 const { v2 } = require('../../utils/v2');
 const { ActionRowBuilder, StringSelectMenuBuilder, ButtonBuilder } = require('discord.js');
 
-const CARTE_SUBCATS = [
-    { key: 'carte_main', label: '<:icontb:1516711894122237962> Cartes', names: ['booster', 'inventaire', 'collection'] },
-];
-
 const COIN_SUBCATS = [
     { key: 'coin_eco',        label: '💰 Économie',       names: ['balance','deposit','withdraw','pay','daily','work','profile','top','convert','drop','rob','rep'] },
     { key: 'coin_casino',     label: '🎰 Casino / Jeux',  names: ['casino','slots','blackjack','pfc','crash'] },
@@ -15,6 +11,18 @@ const COIN_SUBCATS = [
     { key: 'coin_entreprise', label: '🏢 Entreprise',      names: ['entreprise','licencier','recruter','entreprisedelete','empedit','entnotif'] },
     { key: 'coin_illegal',    label: '🌿 Illégal',         names: ['mobil','recolt'] },
 ];
+
+const CARTE_SUBCATS = [
+    {
+        key:      'carte_main',
+        label:    '<:icontb:1516711894122237962> Cartes',
+        optLabel: 'Cartes',
+        optEmoji: { name: 'icontb', id: '1516711894122237962' },
+        names:    ['booster', 'inventaire', 'collection'],
+    },
+];
+
+const ALL_SUBCATS = [...COIN_SUBCATS, ...CARTE_SUBCATS];
 
 module.exports = {
     name: "help",
@@ -44,17 +52,19 @@ module.exports = {
                 .setDescription(cmd.description || 'Aucune description.')
                 .addFields({ name: 'Utilisation', value: cmd.usage?.map(u => `\`${prefix}${u}\``).join('\n') || `\`${prefix}${cmd.name}\`` })
                 .addFields({ name: 'Aliases', value: cmd.aliases?.length ? cmd.aliases.map(a => `\`${prefix}${a}\``).join(', ') : 'Aucun', inline: true })
-                .setColor(color)
+                .setColor('#F1C40F')
             ]}));
         }
-
-        const ALL_SUBCATS = [...CARTE_SUBCATS, ...COIN_SUBCATS];
 
         const row = new ActionRowBuilder().addComponents(
             new StringSelectMenuBuilder()
                 .setCustomId('help_coin_sub_select')
                 .setPlaceholder('Choisir une catégorie...')
-                .addOptions(ALL_SUBCATS.map(s => ({ label: s.label.replace(/<:[^>]+>/g, '').trim() || s.label, value: s.key })))
+                .addOptions(ALL_SUBCATS.map(s => {
+                    const opt = { label: s.optLabel || s.label.replace(/<:[^>]+>\s*/g, '').trim(), value: s.key };
+                    if (s.optEmoji) opt.emoji = s.optEmoji;
+                    return opt;
+                }))
         );
 
         const embed = new Discord.EmbedBuilder()

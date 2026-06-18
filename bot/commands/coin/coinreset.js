@@ -12,20 +12,23 @@ module.exports = {
     usage: [
         "coinreset coins [@membre|all]",
         "coinreset xp [@membre|all]",
+        "coinreset cartes [@membre|all]",
         "coinreset all [@membre|all]",
     ],
     run: async (client, message, args, color, prefix, footer) => {
         const isOwner = client.staff.includes(message.author.id) || client.config.buyers.includes(message.author.id) || client.db.get(`owner_${message.author.id}`) === true;
         if (!isOwner) return message.channel.send(`Cette commande est réservée aux owners.`);
 
-        const type = args[0]; // coins, xp, all
+        const type = args[0];
         const target = args[1] === 'all' ? 'all' : (message.mentions.members.first() || message.guild.members.cache.get(args[1]));
 
-        if (!type || !target) return message.reply(`Usage : \`${prefix}coinreset <coins|xp|all> <@membre|all>\``);
+        if (!type || !target) return message.reply(`Usage : \`${prefix}coinreset <coins|xp|cartes|all> <@membre|all>\``);
+
+        const validTypes = ['coins', 'xp', 'cartes', 'all'];
+        if (!validTypes.includes(type)) return message.reply(`❌ Type invalide. Choix : \`${validTypes.join(', ')}\``);
 
         const guildId = message.guild.id;
 
-        // Confirmation
         const row = new ActionRowBuilder().addComponents(
             new ButtonBuilder().setCustomId('cr_confirm').setLabel('✅ Confirmer').setStyle(Discord.ButtonStyle.Danger),
             new ButtonBuilder().setCustomId('cr_cancel').setLabel('❌ Annuler').setStyle(Discord.ButtonStyle.Secondary)
@@ -50,6 +53,14 @@ module.exports = {
                 }
                 if (type === 'xp' || type === 'all') {
                     client.db.set(`xp_${uid}_${guildId}`, 0);
+                }
+                if (type === 'cartes' || type === 'all') {
+                    client.db.set(`boosters_${uid}`, { classique: 0, premium: 0, legendaire: 0 });
+                    client.db.set(`collection_${uid}`, []);
+                    client.db.delete(`col_page_${uid}`);
+                    client.db.delete(`booster_sess_${uid}`);
+                    client.db.delete(`col_main_msg_${uid}`);
+                    client.db.delete(`col_sell_card_${uid}`);
                 }
             }
 

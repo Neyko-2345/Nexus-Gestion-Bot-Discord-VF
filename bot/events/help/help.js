@@ -12,9 +12,21 @@ const COIN_SUBCATS = [
     { key: 'coin_illegal',    label: '🌿 Illégal',         names: ['mobil','recolt'] },
 ];
 
-const BLUE = '#5865F2';
+const CARTE_SUBCATS = [
+    {
+        key:      'carte_main',
+        label:    '<:icontb:1516711894122237962> Cartes',
+        optLabel: 'Cartes',
+        optEmoji: { name: 'icontb', id: '1516711894122237962' },
+        names:    ['booster', 'inventaire', 'collection'],
+    },
+];
 
-function buildPagedEmbed(cmds, prefix, footer, title) {
+const ALL_SUBCATS = [...COIN_SUBCATS, ...CARTE_SUBCATS];
+
+const YELLOW = '#F1C40F';
+
+function buildPagedEmbed(cmds, prefix, title) {
     const ITEMS_PER_PAGE = 10;
     const chunks = [];
     let current = [];
@@ -27,23 +39,27 @@ function buildPagedEmbed(cmds, prefix, footer, title) {
     return chunks.map((ch, i) => new Discord.EmbedBuilder()
         .setTitle(`${title}${chunks.length > 1 ? ` — page ${i + 1}/${chunks.length}` : ''}`)
         .setDescription(`*<> = obligatoire, [] = facultatif*\n\n${ch.join('\n\n')}`)
-        .setColor(BLUE)
+        .setColor(YELLOW)
     );
 }
 
-function buildCoinSubMenu(prefix, color, footer) {
+function buildMainMenu(prefix) {
     const select = new StringSelectMenuBuilder()
         .setCustomId('help_coin_sub_select')
-        .setPlaceholder('Choisir une sous-catégorie coin...')
-        .addOptions(COIN_SUBCATS.map(s => ({ label: s.label, value: s.key })));
+        .setPlaceholder('Choisir une catégorie...')
+        .addOptions(ALL_SUBCATS.map(s => {
+            const opt = { label: s.optLabel || s.label.replace(/<:[^>]+>\s*/g, '').trim(), value: s.key };
+            if (s.optEmoji) opt.emoji = s.optEmoji;
+            return opt;
+        }));
     const embed = new Discord.EmbedBuilder()
         .setTitle('💰 Bot Coin — Aide')
         .setDescription(
             `Sélectionnez une catégorie dans le menu ci-dessous.\n\n` +
-            COIN_SUBCATS.map(s => `**${s.label}**`).join('\n') +
+            ALL_SUBCATS.map(s => `**${s.label}**`).join('\n') +
             `\n\n*\`${prefix}help [commande]\` pour les détails d'une commande*`
         )
-        .setColor(color);
+        .setColor(YELLOW);
     return { embed, components: [new ActionRowBuilder().addComponents(select)] };
 }
 
@@ -56,23 +72,26 @@ module.exports = {
             && interaction.customId !== 'hp_prev'
             && interaction.customId !== 'hp_next') return;
 
-        const color  = client.db.get(`color_${interaction.guildId}`) || client.color;
-        const prefix = client.db.get(`prefix_${interaction.guildId}`) || client.prefix;
-        const footer = client.footer;
-
+        const prefix   = client.db.get(`prefix_${interaction.guildId}`) || client.prefix;
         const authorId = client.db.get(`help_author_${interaction.guildId}_${interaction.message.id}`);
+
         if (authorId && authorId !== interaction.user.id) {
             return interaction.reply({ content: 'Ce menu ne vous appartient pas.', ephemeral: true });
         }
 
+        if (interaction.customId === 'hp_back_coin') {
+            const { embed, components } = buildMainMenu(prefix);
+            return interaction.update(v2({ embeds: [embed], components }));
+        }
+
         if (interaction.customId === 'help_coin_sub_select') {
             const key    = interaction.values[0];
-            const subcat = COIN_SUBCATS.find(s => s.key === key);
+            const subcat = ALL_SUBCATS.find(s => s.key === key);
             if (!subcat) return;
 
             const cmds  = client.commands.filter(c => subcat.names.includes(c.name));
-            const pages = buildPagedEmbed(cmds, prefix, footer, subcat.label);
-            let page = 0;
+            const pages = buildPagedEmbed(cmds, prefix, subcat.label);
+            let page    = 0;
 
             const buildPageRow = (p) => {
                 const btns = [new ButtonBuilder().setCustomId('hp_back_coin').setLabel('↩ Retour').setStyle(Discord.ButtonStyle.Secondary)];
@@ -85,7 +104,6 @@ module.exports = {
 
             await interaction.update(v2({ embeds: [pages[0]], components: [buildPageRow(0)] }));
 
-            // Stop existing collector on this message to prevent double-execution
             const msgId = interaction.message.id;
             if (!client._helpCollectors) client._helpCollectors = new Map();
             if (client._helpCollectors.has(msgId)) client._helpCollectors.get(msgId).stop('replaced');
@@ -97,7 +115,7 @@ module.exports = {
                 if (authorId && i.user.id !== authorId) return i.reply({ content: 'Ce menu ne vous appartient pas.', ephemeral: true });
                 if (i.customId === 'hp_back_coin') {
                     col.stop();
-                    const { embed, components } = buildCoinSubMenu(prefix, color, footer);
+                    const { embed, components } = buildMainMenu(prefix);
                     return i.update(v2({ embeds: [embed], components }));
                 }
                 if (i.customId === 'hp_prev') page = Math.max(0, page - 1);

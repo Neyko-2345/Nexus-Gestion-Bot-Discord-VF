@@ -1,0 +1,5 @@
+{
+  "classique":  { "min": 450,   "max": 2050  },
+  "premium":    { "min": 4800,  "max": 20200 },
+  "legendaire": { "min": 19500, "max": 70500 }
+}
