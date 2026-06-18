@@ -13,7 +13,7 @@ function buildInvContainer(userId, boosters, username) {
     if (boosters.premium > 0)    lines.push(`<:emoji_296:1516713844985036891> **Booster Premium** — x${boosters.premium}`);
     if (boosters.legendaire > 0) lines.push(`<:emoji_297:1516713877662863522> **Booster Légendaire** — x${boosters.legendaire}`);
 
-    const container = new ContainerBuilder();
+    const container = new ContainerBuilder().setAccentColor(0xF1C40F);
     container.addTextDisplayComponents(
         new TextDisplayBuilder().setContent(`## <:icontb:1516711894122237962> Inventaire de ${username}`)
     );
@@ -51,10 +51,9 @@ module.exports = {
         const total = (boosters.classique || 0) + (boosters.premium || 0) + (boosters.legendaire || 0);
 
         if (total === 0) {
-            const { ContainerBuilder: CB, TextDisplayBuilder: TDB, MessageFlags: MF } = require('discord.js');
-            const c = new CB();
-            c.addTextDisplayComponents(new TDB().setContent('Tu n\'as aucun booster ! Achètes-en un avec `&booster`.'));
-            return message.channel.send({ components: [c], flags: MF.IsComponentsV2 });
+            const c = new ContainerBuilder().setAccentColor(0xF1C40F);
+            c.addTextDisplayComponents(new TextDisplayBuilder().setContent('Tu n\'as aucun booster ! Achètes-en un avec `&booster`.'));
+            return message.channel.send({ components: [c], flags: MessageFlags.IsComponentsV2 });
         }
 
         const container = buildInvContainer(userId, boosters, username);

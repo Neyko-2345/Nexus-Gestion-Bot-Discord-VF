@@ -1,25 +1,19 @@
 const Discord = require('discord.js');
 const { v2 } = require('../../utils/v2');
-const { ActionRowBuilder, StringSelectMenuBuilder, ButtonBuilder } = require('discord.js');
+const { ActionRowBuilder, StringSelectMenuBuilder } = require('discord.js');
 
 const COIN_SUBCATS = [
-    { key: 'coin_eco',        label: '💰 Économie',       names: ['balance','deposit','withdraw','pay','daily','work','profile','top','convert','drop','rob','rep'] },
-    { key: 'coin_casino',     label: '🎰 Casino / Jeux',  names: ['casino','slots','blackjack','pfc','crash'] },
-    { key: 'coin_mine',       label: '⛏️ Mine',            names: ['mine','minerais','sellminerais'] },
-    { key: 'coin_shop',       label: '🛒 Shop',            names: ['shop','buy','convertshop'] },
-    { key: 'coin_alliance',   label: '⚔️ Alliance/Teams', names: ['tcreate','tdelete','tinfos','tinvite','tkick','tleave','tpromote','tdemote','tdep','twith','tbuy','tshop','tarmy','tarmysend','tattack','ttop','tedit','trep','tguide'] },
-    { key: 'coin_entreprise', label: '🏢 Entreprise',      names: ['entreprise','licencier','recruter','entreprisedelete','empedit','entnotif'] },
-    { key: 'coin_illegal',    label: '🌿 Illégal',         names: ['mobil','recolt'] },
+    { key: 'coin_eco',        label: '💰 Économie',                                    optLabel: 'Économie',      optEmoji: { name: '💰' },                              names: ['balance','deposit','withdraw','pay','daily','work','profile','top','convert','drop','rob','rep'] },
+    { key: 'coin_casino',     label: '🎰 Casino/Jeux',                                 optLabel: 'Casino/Jeux',   optEmoji: { name: '🎰' },                              names: ['casino','slots','blackjack','pfc','crash'] },
+    { key: 'coin_mine',       label: '⛏️ Mine',                                        optLabel: 'Mine',          optEmoji: { name: '⛏️' },                              names: ['mine','minerais','sellminerais'] },
+    { key: 'coin_shop',       label: '🛒 Shop',                                        optLabel: 'Shop',          optEmoji: { name: '🛒' },                              names: ['shop','buy','convertshop'] },
+    { key: 'coin_alliance',   label: '⚔️ Alliance/Teams',                              optLabel: 'Alliance/Teams', optEmoji: { name: '⚔️' },                             names: ['tcreate','tdelete','tinfos','tinvite','tkick','tleave','tpromote','tdemote','tdep','twith','tbuy','tshop','tarmy','tarmysend','tattack','ttop','tedit','trep','tguide'] },
+    { key: 'coin_entreprise', label: '🏢 Entreprise',                                  optLabel: 'Entreprise',    optEmoji: { name: '🏢' },                              names: ['entreprise','licencier','recruter','entreprisedelete','empedit','entnotif'] },
+    { key: 'coin_illegal',    label: '<:green_weed:1514405349837246545> Illégal',       optLabel: 'Illégal',       optEmoji: { name: 'green_weed', id: '1514405349837246545' }, names: ['mobil','recolt'] },
 ];
 
 const CARTE_SUBCATS = [
-    {
-        key:      'carte_main',
-        label:    '<:icontb:1516711894122237962> Cartes',
-        optLabel: 'Cartes',
-        optEmoji: { name: 'icontb', id: '1516711894122237962' },
-        names:    ['booster', 'inventaire', 'collection'],
-    },
+    { key: 'carte_main', label: '<:icontb:1516711894122237962> Cartes', optLabel: 'Cartes', optEmoji: { name: 'icontb', id: '1516711894122237962' }, names: ['booster','inventaire','collection'] },
 ];
 
 const ALL_SUBCATS = [...COIN_SUBCATS, ...CARTE_SUBCATS];
@@ -32,7 +26,7 @@ module.exports = {
     ownerOnly: false,
     usage: ["help", "help [commande]"],
 
-    run: async (client, message, args, color, prefix, footer, commandName) => {
+    run: async (client, message, args, color, prefix, footer) => {
         const guildId = message.guild.id;
         const coinChannels = client.db.get(`coin_channels_${guildId}`) || [];
 
@@ -61,7 +55,7 @@ module.exports = {
                 .setCustomId('help_coin_sub_select')
                 .setPlaceholder('Choisir une catégorie...')
                 .addOptions(ALL_SUBCATS.map(s => {
-                    const opt = { label: s.optLabel || s.label.replace(/<:[^>]+>\s*/g, '').trim(), value: s.key };
+                    const opt = { label: s.optLabel, value: s.key };
                     if (s.optEmoji) opt.emoji = s.optEmoji;
                     return opt;
                 }))

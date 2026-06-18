@@ -3,14 +3,15 @@ const { v2 } = require('../../utils/v2');
 const { ActionRowBuilder, StringSelectMenuBuilder } = require('discord.js');
 
 const ALL_CATEGORIES = [
-    { key: 'antiraid',    label: '🛡️ Anti-Raid',     cats: ['antiraid'] },
-    { key: 'moderation',  label: '🔨 Modération',     cats: ['moderation'] },
-    { key: 'gestion',     label: '⚙️ Gestion',        cats: ['gestion'] },
-    { key: 'logs',        label: '📋 Logs',            cats: ['logs'] },
-    { key: 'utilitaire',  label: '🔧 Utilitaires',    cats: ['utilitaire'] },
-    { key: 'botcontrol',  label: '🤖 Bot Control',    cats: ['bot gestion', 'botcontrol'] },
-    { key: 'coin',        label: '💰 Bot Coin',        cats: ['coin'] },
-    { key: 'film',        label: '🎬 Bot Film',        cats: ['film'] },
+    { key: 'antiraid',    label: '🛡️ Anti-Raid',                                     cats: ['antiraid'] },
+    { key: 'moderation',  label: '🔨 Modération',                                    cats: ['moderation'] },
+    { key: 'gestion',     label: '⚙️ Gestion',                                       cats: ['gestion'] },
+    { key: 'logs',        label: '📋 Logs',                                           cats: ['logs'] },
+    { key: 'utilitaire',  label: '🔧 Utilitaires',                                   cats: ['utilitaire'] },
+    { key: 'botcontrol',  label: '🤖 Bot Control',                                   cats: ['bot gestion', 'botcontrol'] },
+    { key: 'coin',        label: '💰 Bot Coin',                                       cats: ['coin'] },
+    { key: 'cartes',      label: '<:icontb:1516711894122237962> Cartes (Owner)',      cats: ['cartes'] },
+    { key: 'film',        label: '🎬 Bot Film',                                       cats: ['film'] },
 ];
 
 module.exports = {
@@ -21,7 +22,7 @@ module.exports = {
     ownerOnly: true,
     usage: ["helpall"],
 
-    run: async (client, message, args, color, prefix, footer, commandName) => {
+    run: async (client, message, args, color, prefix, footer) => {
         const isOwner = client.staff.includes(message.author.id)
             || client.config.buyers.includes(message.author.id)
             || client.db.get(`owner_${message.author.id}`) === true;
@@ -38,7 +39,11 @@ module.exports = {
             new StringSelectMenuBuilder()
                 .setCustomId('helpall_cat_select')
                 .setPlaceholder('Sélectionner une catégorie...')
-                .addOptions(ALL_CATEGORIES.map(c => ({ label: c.label, value: c.key })))
+                .addOptions(ALL_CATEGORIES.map(c => {
+                    const opt = { label: c.optLabel || c.label.replace(/<:[^>]+>\s*/g, '').trim(), value: c.key };
+                    if (c.optEmoji) opt.emoji = c.optEmoji;
+                    return opt;
+                }))
         );
 
         const embed = new Discord.EmbedBuilder()

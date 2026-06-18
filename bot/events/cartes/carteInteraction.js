@@ -4,8 +4,17 @@ const {
     ButtonStyle, MessageFlags, ModalBuilder, TextInputBuilder, TextInputStyle,
 } = require('discord.js');
 const { tirerBooster } = require('../../utils/boosterAlgo');
+const fs   = require('fs');
+const path = require('path');
 
-const BOOSTER_PRICES = { c: 1000, p: 10000, l: 50000 };
+const PRICES_PATH    = path.join(__dirname, '../../data/boosterPrices.json');
+const DEFAULT_PRICES = { classique: 1000, premium: 10000, legendaire: 50000 };
+
+function getPrices() {
+    try { return JSON.parse(fs.readFileSync(PRICES_PATH, 'utf8')); }
+    catch { return { ...DEFAULT_PRICES }; }
+}
+
 const BOOSTER_NAMES  = { c: 'Booster Classique', p: 'Booster Premium', l: 'Booster Légendaire' };
 const BOOSTER_TYPES  = { c: 'classique', p: 'premium', l: 'legendaire' };
 
@@ -24,7 +33,7 @@ function getUniqueCards(collection) {
 function buildBoosterPageContainer(sess, uid) {
     const { type, cards, page } = sess;
     const typeLabel = { classique: 'Booster Classique', premium: 'Booster Premium', legendaire: 'Booster Légendaire' }[type];
-    const container = new ContainerBuilder();
+    const container = new ContainerBuilder().setAccentColor(0xF1C40F);
 
     if (page === 0) {
         container.addTextDisplayComponents(
@@ -97,7 +106,7 @@ function buildColContainer(collection, page, userId, username) {
     const safePage   = Math.max(0, Math.min(page, unique.length - 1));
     const card       = unique[safePage];
 
-    const container = new ContainerBuilder();
+    const container = new ContainerBuilder().setAccentColor(0xF1C40F);
     container.addTextDisplayComponents(
         new TextDisplayBuilder().setContent(`## 📦 Collection de ${username}`)
     );
@@ -145,7 +154,7 @@ async function refreshCollectionMessage(client, userId, interaction) {
         const msg     = await channel.messages.fetch(info.messageId);
 
         if (collection.length === 0) {
-            const c = new ContainerBuilder();
+            const c = new ContainerBuilder().setAccentColor(0xF1C40F);
             c.addTextDisplayComponents(new TextDisplayBuilder().setContent('Collection vendue ! Fais `&booster` pour reremplir ta collection.'));
             await msg.edit({ components: [c], flags: MessageFlags.IsComponentsV2 });
         } else {
@@ -176,14 +185,15 @@ module.exports = {
             // ═══════════════════════════════════════════
             if (['bp_buy_c', 'bp_buy_p', 'bp_buy_l'].includes(id)) {
                 const key     = id.slice(-1);
-                const price   = BOOSTER_PRICES[key];
+                const prices  = getPrices();
+                const price   = prices[BOOSTER_TYPES[key]];
                 const name    = BOOSTER_NAMES[key];
                 const type    = BOOSTER_TYPES[key];
                 const coinKey = `coin_hand_${uid}_${gid}`;
                 const coins   = client.db.get(coinKey) || 0;
 
                 if (coins < price) {
-                    const c = new ContainerBuilder();
+                    const c = new ContainerBuilder().setAccentColor(0xF1C40F);
                     c.addTextDisplayComponents(new TextDisplayBuilder().setContent(`❌ Tu n'as pas assez de coins ! Il te faut \`${price}\` coins, tu en as \`${coins}\`.`));
                     return interaction.reply({ components: [c], flags: MessageFlags.IsComponentsV2 | MessageFlags.Ephemeral });
                 }
@@ -194,7 +204,7 @@ module.exports = {
                 boosters[type] = (boosters[type] || 0) + 1;
                 client.db.set(`boosters_${uid}`, boosters);
 
-                const c = new ContainerBuilder();
+                const c = new ContainerBuilder().setAccentColor(0xF1C40F);
                 c.addTextDisplayComponents(new TextDisplayBuilder().setContent(`## <:emoji_294:1516712949694332928> Shop Boosters`));
                 c.addSeparatorComponents(new SeparatorBuilder().setSpacing(SeparatorSpacingSize.Small).setDivider(true));
                 c.addTextDisplayComponents(
@@ -223,7 +233,7 @@ module.exports = {
 
                 const boosters = client.db.get(`boosters_${uid}`) || { classique: 0, premium: 0, legendaire: 0 };
                 if ((boosters[type] || 0) <= 0) {
-                    const c = new ContainerBuilder();
+                    const c = new ContainerBuilder().setAccentColor(0xF1C40F);
                     c.addTextDisplayComponents(new TextDisplayBuilder().setContent(`❌ Tu n'as plus de ${BOOSTER_NAMES[key]}.`));
                     return interaction.reply({ components: [c], flags: MessageFlags.IsComponentsV2 | MessageFlags.Ephemeral });
                 }
@@ -288,7 +298,7 @@ module.exports = {
                 if (collection.length === 0) return interaction.deferUpdate();
                 const totalValue = collection.reduce((s, c) => s + c.valeur, 0);
 
-                const c = new ContainerBuilder();
+                const c = new ContainerBuilder().setAccentColor(0xF1C40F);
                 c.addTextDisplayComponents(new TextDisplayBuilder().setContent('## 🗑️ Confirmation — Tout vendre'));
                 c.addSeparatorComponents(new SeparatorBuilder().setSpacing(SeparatorSpacingSize.Small).setDivider(true));
                 c.addTextDisplayComponents(
@@ -319,7 +329,7 @@ module.exports = {
                 client.db.set(`collection_${uid}`, []);
                 client.db.set(`col_page_${uid}`, 0);
 
-                const c = new ContainerBuilder();
+                const c = new ContainerBuilder().setAccentColor(0xF1C40F);
                 c.addTextDisplayComponents(
                     new TextDisplayBuilder().setContent(
                         `✅ **Collection vendue !** Vous avez obtenu \`${totalValue}\` <:coin:1510618513876717709>.\nFaites \`&booster\` pour reremplir votre collection.`
@@ -334,7 +344,7 @@ module.exports = {
             // 7. COLLECTION: Confirmation sell all — NO
             // ═══════════════════════════════════════════
             if (id === `col_conf_no_${uid}`) {
-                const c = new ContainerBuilder();
+                const c = new ContainerBuilder().setAccentColor(0xF1C40F);
                 c.addTextDisplayComponents(new TextDisplayBuilder().setContent('❌ Vente annulée.'));
                 return interaction.update({ components: [c], flags: MessageFlags.IsComponentsV2 });
             }
@@ -369,7 +379,7 @@ module.exports = {
 
                 const idx = collection.findIndex(c => c.nom === card.nom && c.image === card.image && c.valeur === card.valeur);
                 if (idx === -1) {
-                    const c = new ContainerBuilder();
+                    const c = new ContainerBuilder().setAccentColor(0xF1C40F);
                     c.addTextDisplayComponents(new TextDisplayBuilder().setContent('❌ Carte introuvable.'));
                     return interaction.update({ components: [c], flags: MessageFlags.IsComponentsV2 });
                 }
@@ -381,7 +391,7 @@ module.exports = {
                 let page       = client.db.get(`col_page_${uid}`) || 0;
                 if (page >= unique.length && page > 0) { page = unique.length - 1; client.db.set(`col_page_${uid}`, page); }
 
-                const conf = new ContainerBuilder();
+                const conf = new ContainerBuilder().setAccentColor(0xF1C40F);
                 conf.addTextDisplayComponents(
                     new TextDisplayBuilder().setContent(
                         `✅ La carte **${card.nom}** a été vendue ! Vous avez obtenu \`${card.valeur}\` <:coin:1510618513876717709>.`
@@ -411,7 +421,7 @@ module.exports = {
                 let page     = client.db.get(`col_page_${uid}`) || 0;
                 if (page >= unique.length && page > 0) { page = unique.length - 1; client.db.set(`col_page_${uid}`, page); }
 
-                const conf = new ContainerBuilder();
+                const conf = new ContainerBuilder().setAccentColor(0xF1C40F);
                 conf.addTextDisplayComponents(
                     new TextDisplayBuilder().setContent(
                         `✅ **${toSell.length}x ${card.nom}** vendue(s) ! Vous avez obtenu \`${gained}\` <:coin:1510618513876717709>.`
@@ -452,7 +462,7 @@ module.exports = {
 
                 if (matches.length === 0) {
                     const searchPartial = unique.filter(c => c.nom.toLowerCase().includes(inputName));
-                    const c = new ContainerBuilder();
+                    const c = new ContainerBuilder().setAccentColor(0xF1C40F);
                     if (searchPartial.length > 0) {
                         c.addTextDisplayComponents(
                             new TextDisplayBuilder().setContent(
@@ -482,7 +492,7 @@ module.exports = {
                         let page       = client.db.get(`col_page_${uid}`) || 0;
                         if (page >= unique2.length && page > 0) { page = unique2.length - 1; client.db.set(`col_page_${uid}`, page); }
 
-                        const c = new ContainerBuilder();
+                        const c = new ContainerBuilder().setAccentColor(0xF1C40F);
                         c.addTextDisplayComponents(
                             new TextDisplayBuilder().setContent(
                                 `✅ La carte **${card.nom}** a été vendue ! Vous avez obtenu \`${card.valeur}\` <:coin:1510618513876717709>.`
@@ -494,7 +504,7 @@ module.exports = {
                     }
 
                     // Multiple copies
-                    const c = new ContainerBuilder();
+                    const c = new ContainerBuilder().setAccentColor(0xF1C40F);
                     c.addTextDisplayComponents(new TextDisplayBuilder().setContent(`## 💰 Vendre — ${card.nom}`));
                     c.addSeparatorComponents(new SeparatorBuilder().setSpacing(SeparatorSpacingSize.Small).setDivider(true));
                     c.addTextDisplayComponents(
@@ -515,7 +525,7 @@ module.exports = {
                 // Multiple DIFFERENT cards with same name
                 client.db.set(`col_sell_candidates_${uid}`, matches.map(c => ({ nom: c.nom, image: c.image, valeur: c.valeur })));
                 const list = matches.map((c, i) => `**${i + 1}.** ${c.nom} — \`${c.valeur}\` coins (x${c.count})`).join('\n');
-                const c = new ContainerBuilder();
+                const c = new ContainerBuilder().setAccentColor(0xF1C40F);
                 c.addTextDisplayComponents(new TextDisplayBuilder().setContent('## 💰 Plusieurs cartes correspondent'));
                 c.addSeparatorComponents(new SeparatorBuilder().setSpacing(SeparatorSpacingSize.Small).setDivider(true));
                 c.addTextDisplayComponents(new TextDisplayBuilder().setContent(list));
@@ -538,7 +548,7 @@ module.exports = {
                 const toSell     = numbers.filter(n => n >= 1 && n <= candidates.length).map(n => candidates[n - 1]);
 
                 if (toSell.length === 0) {
-                    const c = new ContainerBuilder();
+                    const c = new ContainerBuilder().setAccentColor(0xF1C40F);
                     c.addTextDisplayComponents(new TextDisplayBuilder().setContent('❌ Aucun numéro valide saisi.'));
                     return interaction.update({ components: [c], flags: MessageFlags.IsComponentsV2 });
                 }
@@ -560,7 +570,7 @@ module.exports = {
                 let page     = client.db.get(`col_page_${uid}`) || 0;
                 if (page >= unique.length && page > 0) { page = unique.length - 1; client.db.set(`col_page_${uid}`, page); }
 
-                const conf = new ContainerBuilder();
+                const conf = new ContainerBuilder().setAccentColor(0xF1C40F);
                 conf.addTextDisplayComponents(
                     new TextDisplayBuilder().setContent(
                         `✅ **${toSell.length}** carte(s) vendue(s) ! Vous avez obtenu \`${gained}\` <:coin:1510618513876717709>.`
@@ -574,7 +584,7 @@ module.exports = {
         } catch (err) {
             console.error('[carteInteraction]', err);
             try {
-                const c = new ContainerBuilder();
+                const c = new ContainerBuilder().setAccentColor(0xF1C40F);
                 c.addTextDisplayComponents(new TextDisplayBuilder().setContent('❌ Une erreur est survenue. Réessaie.'));
                 if (!interaction.replied && !interaction.deferred) {
                     await interaction.reply({ components: [c], flags: MessageFlags.IsComponentsV2 | MessageFlags.Ephemeral });

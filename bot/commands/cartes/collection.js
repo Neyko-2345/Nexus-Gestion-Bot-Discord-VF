@@ -21,7 +21,7 @@ function buildColContainer(collection, page, userId, username) {
     const safePage   = Math.max(0, Math.min(page, unique.length - 1));
     const card       = unique[safePage];
 
-    const container = new ContainerBuilder();
+    const container = new ContainerBuilder().setAccentColor(0xF1C40F);
 
     container.addTextDisplayComponents(
         new TextDisplayBuilder().setContent(`## 📦 Collection de ${username}`)
@@ -77,7 +77,7 @@ module.exports = {
         const collection = client.db.get(`collection_${userId}`) || [];
 
         if (collection.length === 0) {
-            const c = new ContainerBuilder();
+            const c = new ContainerBuilder().setAccentColor(0xF1C40F);
             c.addTextDisplayComponents(new TextDisplayBuilder().setContent('Ta collection est vide ! Commence par acheter un booster avec `&booster`.'));
             return message.channel.send({ components: [c], flags: MessageFlags.IsComponentsV2 });
         }
