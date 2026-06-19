@@ -1,8 +1,8 @@
 [phases.setup]
-nixPkgs = ["nodejs_20", "python3", "gcc", "gnumake"]
+nixPkgs = ["nodejs_20", "python3", "gcc", "gnumake", "yarn"]
 
 [phases.install]
-cmds = ["npm install --no-audit --no-fund --fetch-retries=5 --fetch-retry-mintimeout=20000"]
+cmds = ["yarn install --network-timeout 300000"]
 
 [phases.build]
 cmds = []
