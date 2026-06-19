@@ -2,7 +2,10 @@
 nixPkgs = ["nodejs_20", "python3", "gcc", "gnumake"]
 
 [phases.install]
-cmds = ["npm install --omit=dev=false --include=dev"]
+cmds = ["npm install --no-audit --no-fund --fetch-retries=5 --fetch-retry-mintimeout=20000"]
+
+[phases.build]
+cmds = []
 
 [start]
 cmd = "node index.js"
